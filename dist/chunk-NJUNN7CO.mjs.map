@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/auth/enums/request-user-role.ts"],"sourcesContent":["export enum RequestUserRole {\r\n  ADMIN = 'ADMIN',\r\n  USER = 'USER',\r\n  SYSTEM = 'SYSTEM',\r\n}"],"mappings":";AAAO,IAAK,kBAAL,kBAAKA,qBAAL;AACL,EAAAA,iBAAA,WAAQ;AACR,EAAAA,iBAAA,UAAO;AACP,EAAAA,iBAAA,YAAS;AAHC,SAAAA;AAAA,GAAA;","names":["RequestUserRole"]}

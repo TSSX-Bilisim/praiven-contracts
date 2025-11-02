@@ -1,10 +1,6 @@
 # Node modules
 node_modules/
 
-# Build output
-dist/
-tsconfig.tsbuildinfo
-
 # OS veya IDE dosyaları
 .DS_Store
 *.log

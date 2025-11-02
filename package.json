@@ -1,6 +1,6 @@
 {
   "name": "@tssx-bilisim/praiven-contracts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "praiven shared contracts",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -31,19 +31,19 @@
   },
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.js"
     },
     "./auth": {
+      "types": "./dist/auth/index.d.ts",
       "import": "./dist/auth/index.mjs",
-      "require": "./dist/auth/index.js",
-      "types": "./dist/auth/index.d.ts"
+      "require": "./dist/auth/index.js"
     },
     "./queue": {
+      "types": "./dist/queue/index.d.ts",
       "import": "./dist/queue/index.mjs",
-      "require": "./dist/queue/index.js",
-      "types": "./dist/queue/index.d.ts"
+      "require": "./dist/queue/index.js"
     }
   }
 }

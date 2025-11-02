@@ -17,22 +17,13 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/index.ts
-var src_exports = {};
-__export(src_exports, {
+// src/queue/index.ts
+var queue_exports = {};
+__export(queue_exports, {
   JobNames: () => JobNames,
-  QueueNames: () => QueueNames,
-  RequestUserRole: () => RequestUserRole
+  QueueNames: () => QueueNames
 });
-module.exports = __toCommonJS(src_exports);
-
-// src/auth/enums/request-user-role.ts
-var RequestUserRole = /* @__PURE__ */ ((RequestUserRole2) => {
-  RequestUserRole2["ADMIN"] = "ADMIN";
-  RequestUserRole2["USER"] = "USER";
-  RequestUserRole2["SYSTEM"] = "SYSTEM";
-  return RequestUserRole2;
-})(RequestUserRole || {});
+module.exports = __toCommonJS(queue_exports);
 
 // src/queue/enums/job-names.enum.ts
 var JobNames = /* @__PURE__ */ ((JobNames2) => {
@@ -48,7 +39,6 @@ var QueueNames = /* @__PURE__ */ ((QueueNames2) => {
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   JobNames,
-  QueueNames,
-  RequestUserRole
+  QueueNames
 });
 //# sourceMappingURL=index.js.map

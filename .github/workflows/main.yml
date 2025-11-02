@@ -18,6 +18,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@tssx-bilisim'
       - run: npm install
+      - run: rm -rf dist
       - run: npm run build
       - run: npm publish
         env:

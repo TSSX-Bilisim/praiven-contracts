@@ -1,6 +1,6 @@
 {
   "name": "@tssx-bilisim/praiven-contracts",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "praiven shared contracts",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -23,6 +23,8 @@
   ],
   "homepage": "https://github.com/TSSX-Bilisim/praiven-contracts#readme",
   "devDependencies": {
+    "@types/express": "^5.0.5",
+    "express": "^5.1.0",
     "tsup": "^8.5.0",
     "typescript": "^5.9.3"
   },
@@ -44,6 +46,14 @@
       "types": "./dist/queue/index.d.ts",
       "import": "./dist/queue/index.mjs",
       "require": "./dist/queue/index.js"
+    },
+    "./decorators": {
+      "types": "./dist/decorators/index.d.ts",
+      "import": "./dist/decorators/index.mjs",
+      "require": "./dist/decorators/index.js"
     }
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.8"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@tssx-bilisim/praiven-contracts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "praiven shared contracts",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -23,7 +23,6 @@
   ],
   "homepage": "https://github.com/TSSX-Bilisim/praiven-contracts#readme",
   "devDependencies": {
-    "rimraf": "^6.1.0",
     "tsup": "^8.5.0",
     "typescript": "^5.9.3"
   },

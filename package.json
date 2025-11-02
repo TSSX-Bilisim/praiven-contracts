@@ -1,0 +1,31 @@
+{
+  "name": "@tssx-bilisim/praiven-contracts",
+  "version": "1.0.0",
+  "description": "praiven shared contracts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSSX-Bilisim/praiven-contracts.git"
+  },
+  "author": "TSS-X Bilişim",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/TSSX-Bilisim/praiven-contracts/issues"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "homepage": "https://github.com/TSSX-Bilisim/praiven-contracts#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

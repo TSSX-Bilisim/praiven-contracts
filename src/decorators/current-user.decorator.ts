@@ -5,7 +5,7 @@ import {
   UnauthorizedException,
 } from '@nestjs/common';
 import type { Request } from 'express';
-import { RequestUser, RequestUserRole } from '../auth';
+import type { RequestUser } from '@tssx-bilisim/praiven-contracts/auth';
 
 /**
  * API Gateway tarafından eklenen 'x-user-id', 'x-user-role' ve 'x-user-is-system'
@@ -19,13 +19,13 @@ export const CurrentUser = createParamDecorator(
 
     // 1. Üç ayrı başlığı oku
     const userId = request.headers['x-user-id'] as string;
-    const roleId = request.headers['x-user-roleId'] as string;
-    const departmentId = request.headers['x-user-departmentId'] as string;
+    const roleId = request.headers['x-user-roleid'] as string;
+    const departmentId = request.headers['x-user-departmentid'] as string;
 
     // 2. Başlıkların varlığını kontrol et
     if (!userId || !roleId || !departmentId) {
       throw new UnauthorizedException(
-        'Gerekli kullanıcı başlıkları (x-user-id, x-user-roleId, x-user-departmentId) eksik. Gateway yapılandırmasını kontrol edin.',
+        'Gerekli kullanıcı başlıkları (x-user-id, x-user-roleid, x-user-departmentid) eksik. Gateway yapılandırmasını kontrol edin.',
       );
     }
 

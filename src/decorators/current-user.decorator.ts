@@ -19,7 +19,7 @@ export const CurrentUser = createParamDecorator(
 
     // 1. Üç ayrı başlığı oku
     const userId = request.headers['x-user-id'] as string;
-    const roleId = request.headers['x-user-roleId'] as RequestUserRole;
+    const roleId = request.headers['x-user-roleId'] as string;
     const departmentId = request.headers['x-user-departmentId'] as string;
 
     // 2. Başlıkların varlığını kontrol et

@@ -2,26 +2,26 @@ export const INTERNAL_ROLES = {
   SUPER_ADMIN: {
     id: 'role_superadmin_001',
     key: 'SUPER_ADMIN',
-    name: 'Süper Yönetici',
-    description: 'Tüm sistem ayarlarına ve yönetimine tam erişim',
+    name: 'Super Administrator',
+    description: 'Full access to all system settings and management',
   },
   ADMIN: {
     id: 'role_admin_002',
     key: 'ADMIN',
-    name: 'Yönetici',
-    description: 'Departman bazlı yönetim ve konfigürasyon yetkileri',
+    name: 'Administrator',
+    description: 'Department-based management and configuration privileges',
   },
   MANAGER: {
     id: 'role_manager_003',
     key: 'MANAGER',
-    name: 'Müdür',
-    description: 'Takım metrikleri ve raporlama erişimi',
+    name: 'Manager',
+    description: 'Team metrics and reporting access',
   },
   USER: {
     id: 'role_user_004',
     key: 'USER',
-    name: 'Kullanıcı',
-    description: 'Temel LLM kullanım yetkileri',
+    name: 'User',
+    description: 'Basic LLM usage privileges',
   },
 } as const;
 

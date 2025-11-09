@@ -25,19 +25,19 @@ export const INTERNAL_ROLES = {
   },
 } as const;
 
-export type RoleKey = keyof typeof ROLE_DEFINITIONS;
-export type RoleDefinition = typeof ROLE_DEFINITIONS[RoleKey];
+export type RoleKey = keyof typeof INTERNAL_ROLES;
+export type RoleDefinition = typeof INTERNAL_ROLES[RoleKey];
 export type RoleId = RoleDefinition['id'];
 
 // Helper functions
 export const getRoleById = (id: string) => {
-  return Object.values(ROLE_DEFINITIONS).find(role => role.id === id);
+  return Object.values(INTERNAL_ROLES).find(role => role.id === id);
 };
 
 export const getRoleByKey = (key: string) => {
-  return ROLE_DEFINITIONS[key as RoleKey];
+  return INTERNAL_ROLES[key as RoleKey];
 };
 
 export const getAllRoles = () => {
-  return Object.values(ROLE_DEFINITIONS);
+  return Object.values(INTERNAL_ROLES);
 };

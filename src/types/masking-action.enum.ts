@@ -4,5 +4,5 @@ export enum MaskingActionType {
   PARTIAL_START = 'PARTIAL_START', // Baştan kısmi maskeleme
   REDACT = 'REDACT',         // Metni gizle / sansürle
   HASH = 'HASH',             // Hash ile maskele
-  UNMASK = 'UNMASK',         // Maskeleme yapılmasın
+  NONE = 'NONE',         // Maskeleme yapılmasın
 }

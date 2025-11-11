@@ -1,8 +1,8 @@
-import { MessageEntityDto } from "../../entities";
+import { IMessageEntity } from "../../entities";
 
 export interface MessageFilteredJob {
   conversationId: string;
   messageId: number;
   maskedContent: string;
-  entities: MessageEntityDto[];
+  entities: IMessageEntity[];
 }

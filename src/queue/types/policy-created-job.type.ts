@@ -1,4 +1,3 @@
-
 export interface PolicyCreatedJob {
   policyId: string;
   systemId: string;

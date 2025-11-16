@@ -3,8 +3,13 @@ export type MetricLabel = {
   roleId: string;
   departmentId: string;
   policyId: string;
-  messageId?: string;
 
+  // FILTER SPECIFIC LABELS
+  entityLabel?: string;
+  entityCategory?: string;
+  maskAction?: string; 
+
+  // LLM SPECIFIC LABELS
   modelId?: string;
   providerId?: string;
 };

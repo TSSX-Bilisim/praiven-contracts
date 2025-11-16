@@ -1,5 +1,3 @@
-import { RequestUser } from "../../auth/types/request-user.type";
-
 export interface FilterMessageJob {
   conversationId: string;
   messageId: number;

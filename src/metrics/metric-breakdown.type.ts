@@ -1,0 +1,1 @@
+export type MetricBreakdown = Record<string, number>;

@@ -1,18 +1,20 @@
 export enum FilterMetricName {
-  FILTER_REQUEST_COUNT = "filter.request.count",
-  FILTER_ERROR_COUNT = "filter.error.count",
+  REQUEST_COUNT = "filter.request.count",
+  ERROR_COUNT = "filter.error.count",
 
-  FILTER_ENTITY_DETECTED = "filter.entity.detected.count",
-  FILTER_ENTITY_MASKED = "filter.entity.masked.count",
-  FILTER_UNMASKED_COUNT = "filter.entity.unmasked.count",
+  ENTITY_DETECTED = "filter.entity.detected.count",
+  ENTITY_MASKED = "filter.entity.masked.count",
+  UNMASKED_COUNT = "filter.entity.unmasked.count",
 
-  FILTER_ENTITY_LABEL = "filter.entity.label.count",
-  FILTER_ENTITY_CATEGORY = "filter.entity.category.count",
-  FILTER_MASK_ACTION = "filter.maskAction.count",
+  ENTITY_LABEL = "filter.entity.label.count",
+  ENTITY_CATEGORY = "filter.entity.category.count",
+  MASK_ACTION = "filter.maskAction.count",
 
-  FILTER_POLICY_APPLIED = "filter.policy.applied.count",
+  POLICY_APPLIED = "filter.policy.applied.count",
 
-  FILTER_QUEUE_WAIT_MS = "filter.queue.wait.ms",
-  FILTER_PROCESSING_MS = "filter.processing.ms",
-  FILTER_TOTAL_LATENCY = "filter.totalLatency.ms",
+  LATENCY_QUEUE_WAIT_MS = "filter.latency.queue.wait.ms",
+  LATENCY_PROCESSING_MS = "filter.latency.processing.ms",
+  LATENCY_TOTAL = "filter.latency.total.ms",
+
+  THROUGHPUT_TOKENS_PER_MS = "filter.throughput.tokens.per.ms",
 }

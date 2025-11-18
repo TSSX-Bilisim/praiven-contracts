@@ -1,6 +1,6 @@
 {
   "name": "@tssx-bilisim/praiven-contracts",
-  "version": "1.11.5",
+  "version": "1.12.0",
   "description": "praiven shared contracts",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -46,11 +46,6 @@
       "types": "./dist/queue/index.d.ts",
       "import": "./dist/queue/index.mjs",
       "require": "./dist/queue/index.js"
-    },
-    "./decorators": {
-      "types": "./dist/decorators/index.d.ts",
-      "import": "./dist/decorators/index.mjs",
-      "require": "./dist/decorators/index.js"
     }
   },
   "dependencies": {

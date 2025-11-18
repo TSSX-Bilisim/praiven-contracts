@@ -7,5 +7,5 @@ export enum JobNames {
   METRICS_WS = "ws_metric",
   LLM_REQUEST = 'llm-request',
   LLM_STREAM = 'llm-stream',
-  LLM_FINALIZE = 'llm-finalize',
+  LLM_DONE = 'llm-done',
 }

@@ -2,7 +2,8 @@ import { ChatMessage } from '../entities/chat-message';
 
 export interface LlmStreamJob {
   conversationId: string;
-  userMessageId: number;
+  messageId: number;
+  userId: string;
   
   model: string; // 'openai:gpt-5.1'
   providerId: string; // 'openai'

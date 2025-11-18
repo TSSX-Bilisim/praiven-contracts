@@ -1,4 +1,4 @@
 export interface LlmDoneJob {
   conversationId: string;
-  userMessageId: string;
+  userMessageId: number;
 }

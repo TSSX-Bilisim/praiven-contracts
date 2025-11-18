@@ -1,5 +1,5 @@
 export interface LlmChunkJob {
   conversationId: string;
-  userMessageId: string;
+  userMessageId: number;
   chunk: string;
 }

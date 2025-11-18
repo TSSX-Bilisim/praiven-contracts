@@ -5,7 +5,6 @@ export default defineConfig({
     index: "src/index.ts",
     "auth/index": "src/auth/index.ts",
     "queue/index": "src/queue/index.ts",
-    "decorators/index": "src/decorators/index.ts",
   },
   format: ["esm", "cjs"],
   dts: true,

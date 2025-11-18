@@ -47,8 +47,5 @@
       "import": "./dist/queue/index.mjs",
       "require": "./dist/queue/index.js"
     }
-  },
-  "dependencies": {
-    "@nestjs/common": "^11.1.8"
   }
 }

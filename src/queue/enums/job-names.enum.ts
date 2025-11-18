@@ -5,4 +5,7 @@ export enum JobNames {
   MESSAGE_FILTERED = 'message-filtered',
   METRICS_INGEST = "record_metric",
   METRICS_WS = "ws_metric",
+  LLM_REQUEST = 'llm-request',
+  LLM_STREAM = 'llm-stream',
+  LLM_FINALIZE = 'llm-finalize',
 }

@@ -18,3 +18,19 @@ export enum FilterMetricName {
 
   THROUGHPUT_TOKENS_PER_MS = "filter.throughput.tokens.per.ms",
 }
+
+export enum LLMMetricName {
+  REQUEST_COUNT = "llm.request.count",
+
+  INPUT_TOKEN_COUNT = "llm.tokens.input.count",
+  OUTPUT_TOKEN_COUNT = "llm.tokens.output.count",
+  TOTAL_TOKEN_COUNT = "llm.tokens.total.count",
+
+  COST = "llm.cost.total",
+
+  LATENCY_QUEUE_WAIT_MS = "llm.latency.queue.wait.ms",
+  LATENCY_PROCESSING_MS = "llm.latency.processing.ms",
+  LATENCY_TOTAL = "llm.latency.total.ms",
+
+  THROUGHPUT_TOKENS_PER_MS = "llm.throughput.tokens.per.ms",
+}

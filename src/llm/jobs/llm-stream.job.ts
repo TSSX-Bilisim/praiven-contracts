@@ -1,6 +1,8 @@
 import { ChatMessage } from '../entities/chat-message';
 
 export interface LlmStreamJob {
+  deparmentId: string;
+  roleId: string;
   conversationId: string;
   messageId: number;
   userId: string;

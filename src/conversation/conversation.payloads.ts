@@ -5,13 +5,7 @@ export interface ConversationTitleRequestedPayload {
   maskedContent: string;
 }
 
-export interface ConversationTitleGeneratedPayload {
-  userId: string;
-  conversationId: string;
-  title: string;
-}
-
-export interface ConversationTitleUpdatedPayload {
+export interface ConversationTitlePayload  {
   userId: string;
   conversationId: string;
   title: string;

@@ -7,4 +7,5 @@ export enum QueueNames {
   METRICS_INGEST_QUEUE = "metrics_ingest_queue",
   METRICS_WS_QUEUE = "metrics_ws_queue",
   TITLE_QUEUE = 'title-queue',
+  TITLE_RESULT_QUEUE = 'title-result-queue',
 }

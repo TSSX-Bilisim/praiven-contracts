@@ -8,4 +8,5 @@ export enum QueueNames {
   METRICS_WS_QUEUE = "metrics_ws_queue",
   TITLE_QUEUE = 'title-queue',
   TITLE_RESULT_QUEUE = 'title-result-queue',
+  NOTIFICATION_QUEUE = 'notification-queue',
 }

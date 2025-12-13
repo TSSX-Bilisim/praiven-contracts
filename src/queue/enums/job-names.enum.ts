@@ -9,6 +9,4 @@ export enum JobNames {
   LLM_REQUEST = 'llm-request',
   LLM_STREAM = 'llm-stream',
   LLM_DONE = 'llm-done',
-  CONVERSATION_TITLE_REQUESTED = 'conversation.title.requested',
-  CONVERSATION_TITLE_GENERATED = 'conversation.title.generated',
 }

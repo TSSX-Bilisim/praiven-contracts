@@ -3,3 +3,4 @@ export * from './jobs/llm-chunk.job';
 export * from './jobs/llm-stream.job';
 export * from './jobs/llm-done.job';
 export * from './jobs/llm-started.job';
+export * from './llm.jobs';

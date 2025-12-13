@@ -1,6 +1,6 @@
 {
   "name": "@tssx-bilisim/praiven-contracts",
-  "version": "1.14.5",
+  "version": "1.14.6",
   "description": "praiven shared contracts",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

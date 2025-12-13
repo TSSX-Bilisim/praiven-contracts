@@ -10,3 +10,9 @@ export interface ConversationTitleGeneratedPayload {
   conversationId: string;
   title: string;
 }
+
+export interface ConversationTitleUpdatedPayload {
+  userId: string;
+  conversationId: string;
+  title: string;
+}

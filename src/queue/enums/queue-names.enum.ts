@@ -10,4 +10,5 @@ export enum QueueNames {
   TITLE_RESULT_QUEUE = 'title-result-queue',
   NOTIFICATION_QUEUE = 'notification-queue',
   LLM_OUTPUT_QUEUE = 'llm-output-queue',
+  ADMINISTRATION_QUEUE = 'administration-queue',
 }
